@@ -1,5 +1,5 @@
 # Nodejs Boilerplate
-This is a nodejs boilerplate for building a REST API with express. It uses Typescript, Postgres with Prima ORM, Vitest for testing.
+This is a nodejs boilerplate for building a REST API with express. It uses Typescript, Postgres with Prima ORM, Vitest for testing. Building with babel to production and ts-node-dev for development.
 
 ## Getting Started
 ### Prerequisites
@@ -16,6 +16,10 @@ This is a nodejs boilerplate for building a REST API with express. It uses Types
 
 ### Running the app
 - Run `yarn dev` to start the app in development mode.
+
+#### Running to production
+- Run `yarn build` to build the app.
+- Run `yarn start` to start the app in production mode.
 
 ### Running the tests
 - Run `yarn test` to run the tests.
