@@ -1,10 +1,9 @@
 # Nodejs Boilerplate
-This is a nodejs boilerplate for building a REST API with express. It uses Typescript, Postgres with Prima ORM, Vitest for testing. Building with babel to production and ts-node-dev for development.
+This is a nodejs boilerplate for building a REST API with express. It uses Typescript and Vitest for testing. Building with babel to production and ts-node-dev for development.
 
 ## Getting Started
 ### Prerequisites
 - Nodejs
-- Postgres
 
 ### Installing
 - Clone the repo
