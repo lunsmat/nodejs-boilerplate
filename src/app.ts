@@ -1,5 +1,7 @@
+import 'dotenv/config';
 import express from 'express';
 import { Server } from 'http';
+import cors from 'cors';
 
 import routes from '@routes';
 
@@ -15,11 +17,12 @@ class Application
     }
 
     private vars(): void {
-        this.app.set('port', 3333);
+        this.app.set('port', process.env.PORT || 3333);
     }
 
     private middlewares(): void {
         this.app.use(express.json());
+        this.app.use(cors());
     }
 
     private routes(): void {

@@ -9,6 +9,7 @@ This is a nodejs boilerplate for building a REST API with express. It uses Types
 ### Installing
 - Clone the repo
 - Install dependencies with `yarn install`
+- Create a `.env` file and copy the content of `.env.example` to it
 
 ### Vscode Extensions
 - ESLint
@@ -29,6 +30,11 @@ This is a nodejs boilerplate for building a REST API with express. It uses Types
 ### Express
 [Express](https://expressjs.com/) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
+### Cors
+[Cors](https://www.npmjs.com/package/cors) is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+
+### Dotenv
+[Dotenv](https://www.npmjs.com/package/dotenv) is a zero-dependency module that loads environment variables from a .env file into process.env.
 
 ## Development Dependencies
 ### Typescript
@@ -57,3 +63,7 @@ This is a nodejs boilerplate for building a REST API with express. It uses Types
 
 ### @types/supertest
 [@types/supertest](https://www.npmjs.com/package/@types/supertest) is a TypeScript definition file for supertest.
+
+## Branches
+- master: The main branch. Contains the latest stable version, includes the prisma database config.
+- base: The branch with only the base project with dependencies and configurations. With only the base app with tests.
