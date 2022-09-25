@@ -17,6 +17,10 @@ This is a nodejs boilerplate for building a REST API with express. It uses Types
 ### Running the app
 - Run `yarn dev` to start the app in development mode.
 
+### Running the tests
+- Run `yarn test` to run the tests.
+- Run `yarn test:coverage` to run the tests with coverage.
+
 ## Dependencies
 ### Express
 [Express](https://expressjs.com/) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
@@ -40,3 +44,12 @@ This is a nodejs boilerplate for building a REST API with express. It uses Types
 
 ### tsconfig-paths
 [tsconfig-paths](https://www.npmjs.com/package/tsconfig-paths) is a module that allows you to use path aliases in your tsconfig.json file.
+
+### Vitest
+[Vitest](https://vitest.dev/) blazing fast unit test framework that uses vite.
+
+### supertest
+[supertest](https://www.npmjs.com/package/supertest) is a module that allows you to test HTTP requests.
+
+### @types/supertest
+[@types/supertest](https://www.npmjs.com/package/@types/supertest) is a TypeScript definition file for supertest.
