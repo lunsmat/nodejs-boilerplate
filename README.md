@@ -10,6 +10,10 @@ This is a nodejs boilerplate for building a REST API with express. It uses Types
 - Clone the repo
 - Install dependencies with `yarn install`
 
+### Vscode Extensions
+- ESLint
+- EditorConfig for VS Code
+
 ### Running the app
 - Run `yarn dev` to start the app in development mode.
 
@@ -30,3 +34,9 @@ This is a nodejs boilerplate for building a REST API with express. It uses Types
 
 ### @types/express
 [@types/express](https://www.npmjs.com/package/@types/express) is a TypeScript definition file for Express.
+
+### EsLint
+[EsLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. You'll need to install the [EsLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for VSCode.
+
+### tsconfig-paths
+[tsconfig-paths](https://www.npmjs.com/package/tsconfig-paths) is a module that allows you to use path aliases in your tsconfig.json file.
