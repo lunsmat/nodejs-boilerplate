@@ -1,9 +1,16 @@
-import { test, expect } from 'vitest';
+import { test, expect, beforeAll, describe } from 'vitest';
 
 import app from '@app';
 
-test('Server should be able to start', async () => {
-    expect(app.httpServer).toBeUndefined();
-    expect(() => app.start()).not.toThrow();
-    expect(app.httpServer).toBeDefined();
+describe('Authentication tests', () => {
+    beforeAll(() => {
+        if (app.httpServer)
+            app.httpServer.close();
+    });
+
+    test('Server should be able to start', async () => {
+        expect(app.httpServer).toBeUndefined();
+        expect(() => app.start()).not.toThrow();
+        expect(app.httpServer).toBeDefined();
+    });
 });

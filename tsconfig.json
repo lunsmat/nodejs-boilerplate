@@ -24,8 +24,15 @@
         "baseUrl": ".",
         "paths": {
             "@app": ["./src/app"],
+            "@prisma-client": ["./src/prisma"],
             "@routes": ["./src/routes"],
             "@controllers/*": ["./src/controllers/*"],
+            "@middlewares/*": ["./src/middlewares/*"],
+            "@resources/*": ["./src/resources/*"],
+            "@services/*": ["./src/services/*"]
         }
-    }
+    },
+    "include": [
+        "./src/**/*"
+    ]
 }
